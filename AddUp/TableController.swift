@@ -37,10 +37,9 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:UITableViewCell = UITableViewCell(style:UITableViewCellStyle.default, reuseIdentifier:"cell")
         cell.textLabel!.text = String(format: "$%.2f", Singleton.sharedInstance.arrayOfItems[indexPath.row])
-        
-        cell.textLabel?.textColor = UIColor.white
+        cell.textLabel?.textColor = UIColor.black
         cell.backgroundColor = UIColor.clear
-        cell.textLabel?.font = UIFont(name: "MetroBold", size: 32)
+        cell.textLabel?.font = UIFont(name: "MetroBold", size: 35)
         
         return cell
     }
@@ -80,7 +79,7 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
         let pickerLabel = UILabel()
         pickerLabel.textColor = UIColor.white
         pickerLabel.text = data[row]
-        pickerLabel.font = UIFont(name: "MetroBold", size: 24)
+        pickerLabel.font = UIFont(name: "MetroBold", size: 28)
         pickerLabel.textAlignment = NSTextAlignment.center
         return pickerLabel
     }
