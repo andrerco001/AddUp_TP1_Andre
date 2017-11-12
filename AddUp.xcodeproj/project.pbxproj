@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B7DD0921FB503B70076285E /* lauch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7DD0911FB503B70076285E /* lauch.png */; };
 		9D355DC81D70946100D4D755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4F1D6DDE39001490B9 /* Main.storyboard */; };
 		9D4DEC4C1D6DDE39001490B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */; };
 		9D4DEC4E1D6DDE39001490B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */; };
@@ -14,10 +15,17 @@
 		9D4DEC561D6DDE39001490B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DEC541D6DDE39001490B9 /* LaunchScreen.storyboard */; };
 		9D741FF21D74BA260064B267 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D741FF11D74BA260064B267 /* Singleton.swift */; };
 		9D7E0FCD1D75D67800D2ADFA /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E0FCC1D75D67800D2ADFA /* TableController.swift */; };
-		9DC7199C1D77229C0063670B /* QuebecTaxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC7199B1D77229C0063670B /* QuebecTaxes.swift */; };
+		C68BC7B51FB7A35400073D5E /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = C68BC7A71FB7A35300073D5E /* eraser.png */; };
+		C68BC7BF1FB7AA1B00073D5E /* 133.png in Resources */ = {isa = PBXBuildFile; fileRef = C68BC7BC1FB7AA1900073D5E /* 133.png */; };
+		C68BC7C01FB7AA1B00073D5E /* Pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = C68BC7BD1FB7AA1A00073D5E /* Pencil.png */; };
+		C68BC7C11FB7AA1B00073D5E /* 3.1.png in Resources */ = {isa = PBXBuildFile; fileRef = C68BC7BE1FB7AA1A00073D5E /* 3.1.png */; };
+		C6A49F621FB827B200D7E857 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A49F611FB827B100D7E857 /* button.png */; };
+		C6A49F641FB8287900D7E857 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A49F631FB8287900D7E857 /* logo.png */; };
+		C6BBB4B51FB88CED00556ABF /* MichiganTaxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBB4B41FB88CED00556ABF /* MichiganTaxes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B7DD0911FB503B70076285E /* lauch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lauch.png; path = Images/misc/lauch.png; sourceTree = "<group>"; };
 		9D4DEC481D6DDE38001490B9 /* AddUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +35,13 @@
 		9D4DEC571D6DDE39001490B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D741FF11D74BA260064B267 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		9D7E0FCC1D75D67800D2ADFA /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
-		9DC7199B1D77229C0063670B /* QuebecTaxes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuebecTaxes.swift; sourceTree = "<group>"; };
+		C68BC7A71FB7A35300073D5E /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eraser.png; path = Images/buttons/eraser.png; sourceTree = "<group>"; };
+		C68BC7BC1FB7AA1900073D5E /* 133.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 133.png; path = Images/misc/133.png; sourceTree = "<group>"; };
+		C68BC7BD1FB7AA1A00073D5E /* Pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pencil.png; path = Images/misc/Pencil.png; sourceTree = "<group>"; };
+		C68BC7BE1FB7AA1A00073D5E /* 3.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.1.png; path = Images/misc/3.1.png; sourceTree = "<group>"; };
+		C6A49F611FB827B100D7E857 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = Images/buttons/button.png; sourceTree = "<group>"; };
+		C6A49F631FB8287900D7E857 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Images/misc/logo.png; sourceTree = "<group>"; };
+		C6BBB4B41FB88CED00556ABF /* MichiganTaxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiganTaxes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +55,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B7DD0901FB4FF7B0076285E /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				C6A49F631FB8287900D7E857 /* logo.png */,
+				C68BC7BE1FB7AA1A00073D5E /* 3.1.png */,
+				C68BC7BC1FB7AA1900073D5E /* 133.png */,
+				C68BC7BD1FB7AA1A00073D5E /* Pencil.png */,
+				9B7DD0911FB503B70076285E /* lauch.png */,
+			);
+			name = misc;
+			sourceTree = "<group>";
+		};
 		9D4DEC3F1D6DDE37001490B9 = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +91,7 @@
 				9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */,
 				9D741FF11D74BA260064B267 /* Singleton.swift */,
 				9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */,
-				9DC7199B1D77229C0063670B /* QuebecTaxes.swift */,
+				C6BBB4B41FB88CED00556ABF /* MichiganTaxes.swift */,
 				9D7E0FCC1D75D67800D2ADFA /* TableController.swift */,
 				9D4DEC4F1D6DDE39001490B9 /* Main.storyboard */,
 				9D4DEC521D6DDE39001490B9 /* Assets.xcassets */,
@@ -85,6 +111,8 @@
 		9DA1D6821D7621090084B01E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C68BC79D1FB7A2BC00073D5E /* buttons */,
+				9B7DD0901FB4FF7B0076285E /* misc */,
 				9DC593451D787D9C00D65655 /* icons */,
 			);
 			name = Images;
@@ -95,6 +123,15 @@
 			children = (
 			);
 			name = icons;
+			sourceTree = "<group>";
+		};
+		C68BC79D1FB7A2BC00073D5E /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C6A49F611FB827B100D7E857 /* button.png */,
+				C68BC7A71FB7A35300073D5E /* eraser.png */,
+			);
+			name = buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,8 +194,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68BC7B51FB7A35400073D5E /* eraser.png in Resources */,
+				C68BC7C11FB7AA1B00073D5E /* 3.1.png in Resources */,
+				C68BC7C01FB7AA1B00073D5E /* Pencil.png in Resources */,
+				C6A49F621FB827B200D7E857 /* button.png in Resources */,
 				9D4DEC561D6DDE39001490B9 /* LaunchScreen.storyboard in Resources */,
+				9B7DD0921FB503B70076285E /* lauch.png in Resources */,
 				9D355DC81D70946100D4D755 /* Main.storyboard in Resources */,
+				C6A49F641FB8287900D7E857 /* logo.png in Resources */,
+				C68BC7BF1FB7AA1B00073D5E /* 133.png in Resources */,
 				9D4DEC531D6DDE39001490B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,8 +217,8 @@
 				9D7E0FCD1D75D67800D2ADFA /* TableController.swift in Sources */,
 				9D4DEC4E1D6DDE39001490B9 /* ViewController.swift in Sources */,
 				9D741FF21D74BA260064B267 /* Singleton.swift in Sources */,
+				C6BBB4B51FB88CED00556ABF /* MichiganTaxes.swift in Sources */,
 				9D4DEC4C1D6DDE39001490B9 /* AppDelegate.swift in Sources */,
-				9DC7199C1D77229C0063670B /* QuebecTaxes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
