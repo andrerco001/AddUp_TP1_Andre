@@ -93,8 +93,8 @@ class ViewController: UIViewController {
     
     //# MARK: - erase
     @IBAction func erase(_ sender: UIButton) {
-        let alertController = UIAlertController(title: "Message", message: "Voulez-vous vraiment tout effacer?", preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "D'accord", style: UIAlertActionStyle.default) {
+        let alertController = UIAlertController(title: "Message", message: "Do you really want to erase everything?", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default) {
             UIAlertAction in
             self.numberToDisplay = ""
             self.labelNumberToDisplay.text = self.informationToDisplay(theSum: 0.00)
@@ -106,7 +106,7 @@ class ViewController: UIViewController {
             self.plusSign.alpha = 0.0
             Singleton.sharedInstance.emptyArray()
         }
-        let cancelAction = UIAlertAction(title: "Annuler", style: UIAlertActionStyle.cancel) {
+        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel) {
             UIAlertAction in
             NSLog("Cancel Pressed")
         }
